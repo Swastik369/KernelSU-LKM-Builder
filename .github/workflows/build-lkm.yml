@@ -16,8 +16,7 @@ jobs:
 
       - name: Clone Kernel Source
         run: |
-          git clone --depth=1 -b miui-t https://github.com/tanz3/kernel_xiaomi_sm8350-miui kernel
-
+          git clone https://github.com/MotorolaMobilityLLC/kernel-mtk/tree/android-12-release-s3rwds32.123-29-2-2
 
       - name: Clone KernelSU Source
         run: |
